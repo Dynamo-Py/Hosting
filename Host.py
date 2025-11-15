@@ -1,4 +1,8 @@
-import os, subprocess, telebot, threading, time, signal, sys
+import os
+os.system('pip install telebot')
+os.system('pip install sys')
+os.system('pip install threading')
+import subprocess, telebot, threading, time, signal, sys
 
 BOT_TOKEN = "8033436420:AAGmDzGAvHZSqHz0jyHEbY37uLq9iPCcA4w"
 ADMIN_ID = 1725301348
